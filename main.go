@@ -38,7 +38,7 @@ func clipboardLoop() {
 
 	clipboard.WriteAll(finishedString)
 	now := time.Now().UTC()
-	fmt.Printf("[%s]: %s", now.Format("03:04 PM"), finishedString)
+	fmt.Printf("[%s]: %s\n", now.Format("03:04 PM"), finishedString)
 }
 
 func checkLife(line string) string {
